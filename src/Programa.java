@@ -22,7 +22,7 @@ public class Programa {
 		
 		//Nota fiscal de uma pessoa jurídica - 20% de juros
 		NotaFiscalPessoaJuridica notaFiscalPessoaJuridica = new NotaFiscalPessoaJuridica();
-		notaFiscalPessoaFisica.setNomeDoCliente("João");
+		notaFiscalPessoaJuridica.setNomeDoCliente("João");
 		notaFiscalPessoaJuridica.setValor(200f);
 		
 		System.out.println("O valor da nota pj é: " + notaFiscalPessoaJuridica.getValor());
